@@ -1,0 +1,215 @@
+ticket_id,customer_id,customer_name,message,order_value_inr,days_since_delivery,days_since_dispatch,product_type,opened_status,order_status,issue_type,resolved_action
+199,C1254,Vihaan,The device is defective and stops working after a few minutes.,3999,9,,non_food,opened,delivered,defective,REQUEST_DEFECT_EVIDENCE
+27,C1125,Tanvi,The product was broken when I opened the parcel.,1799,4,,food,unopened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+58,C1129,Aditi,I changed my mind. The non-food product is still unopened.,2499,10,,non_food,unopened,delivered,return,APPROVE_RETURN
+34,C1048,Neel,My expensive order arrived crushed.,6999,0,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+65,C1066,Aditi,I changed my mind. The non-food product is still unopened.,2499,2,,non_food,unopened,delivered,return,APPROVE_RETURN
+189,C1207,Riya,The product turns on but does not function correctly.,2499,14,,non_food,opened,delivered,defective,APPROVE_REPLACEMENT
+176,C1031,Mira,I want to cancel my order but tracking says it has already shipped.,1999,,3,mixed,unknown,dispatched,cancellation,CANNOT_CANCEL_AFTER_DISPATCH
+28,C1182,Rahul,My package arrived damaged and the box is crushed.,799,6,,food,unopened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+171,C1044,Neel,Please cancel my order. It has not been dispatched yet.,999,,0,mixed,unknown,processing,cancellation,CANCEL_AND_REFUND
+72,C1196,Aditi,I changed my mind. The non-food product is still unopened.,599,14,,non_food,unopened,delivered,return,APPROVE_RETURN
+16,C1306,Sara,My package arrived damaged and the box is crushed.,1799,2,,non_food,unopened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+183,C1037,Neel,The product turns on but does not function correctly.,2999,14,,non_food,opened,delivered,defective,APPROVE_REPLACEMENT
+202,C1264,Aarav,The device is defective and stops working after a few minutes.,3999,1,,non_food,opened,delivered,defective,REQUEST_DEFECT_EVIDENCE
+25,C1037,Aditi,The product was broken when I opened the parcel.,499,5,,food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+100,C1069,Sara,The non-food item is unopened but I would like to return it now.,1499,15,,non_food,unopened,delivered,return,REJECT_OUTSIDE_WINDOW
+109,C1209,Ananya,My order still has not arrived. Tracking shows it is in transit.,999,,6,mixed,unknown,dispatched,shipping_delay,WAIT_AND_TRACK
+213,C1332,Ishaan,Can I cancel this?,1299,,,mixed,unknown,unknown,cancellation,NEEDS_MORE_INFORMATION
+92,C1345,Vihaan,I want to return the food product because I changed my mind.,299,5,,food,opened,delivered,return,REJECT_FOOD_RETURN
+52,C1279,Vihaan,I noticed the product was damaged and want a refund.,3999,9,,non_food,opened,delivered,damaged,REJECT_OUTSIDE_WINDOW
+167,C1245,Diya,Please cancel my order. It has not been dispatched yet.,999,,0,mixed,unknown,processing,cancellation,CANCEL_AND_REFUND
+132,C1102,Arjun,My parcel still has not arrived after a long delay.,2499,,18,mixed,unknown,dispatched,shipping_delay,OFFER_REPLACEMENT_OR_REFUND
+120,C1168,Meera,My package has not arrived yet and it is delayed.,2999,,9,mixed,unknown,dispatched,shipping_delay,OPEN_SHIPPING_INVESTIGATION
+148,C1252,Sara,You sent me the wrong item.,1199,7,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+118,C1043,Rahul,My package has not arrived yet and it is delayed.,499,,10,mixed,unknown,dispatched,shipping_delay,OPEN_SHIPPING_INVESTIGATION
+67,C1342,Diya,I changed my mind. The non-food product is still unopened.,999,2,,non_food,unopened,delivered,return,APPROVE_RETURN
+66,C1021,Kabir,I changed my mind. The non-food product is still unopened.,1599,4,,non_food,unopened,delivered,return,APPROVE_RETURN
+161,C1024,Aditi,Please cancel my order. It has not been dispatched yet.,999,,0,mixed,unknown,processing,cancellation,CANCEL_AND_REFUND
+78,C1060,Riya,I changed my mind but I already opened the non-food product.,599,8,,non_food,opened,delivered,return,REJECT_OPENED_ITEM
+104,C1249,Neel,My order still has not arrived. Tracking shows it is in transit.,1999,,7,mixed,unknown,dispatched,shipping_delay,WAIT_AND_TRACK
+5,C1050,Kabir,My package arrived damaged and the box is crushed.,1199,3,,food,unopened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+47,C1344,Vihaan,I noticed the product was damaged and want a refund.,1499,12,,non_food,opened,delivered,damaged,REJECT_OUTSIDE_WINDOW
+101,C1314,Yash,My order still has not arrived. Tracking shows it is in transit.,999,,7,mixed,unknown,dispatched,shipping_delay,WAIT_AND_TRACK
+36,C1195,Aarav,My expensive order arrived crushed.,2499,6,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+29,C1028,Diya,The product was broken inside the box.,4999,6,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+146,C1044,Neel,The flavour in the box is different from what I ordered.,399,0,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+3,C1113,Sara,My package arrived damaged and the box is crushed.,1999,3,,food,unopened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+7,C1036,Aditi,The outer box and product were damaged on arrival.,499,6,,non_food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+9,C1108,Riya,The product was broken when I opened the parcel.,1199,7,,non_food,unopened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+17,C1329,Ananya,My package arrived damaged and the box is crushed.,1999,4,,food,unopened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+123,C1277,Aditi,My package has not arrived yet and it is delayed.,499,,9,mixed,unknown,dispatched,shipping_delay,OPEN_SHIPPING_INVESTIGATION
+41,C1042,Kavya,The product was broken inside the box.,2499,2,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+133,C1155,Mira,My parcel still has not arrived after a long delay.,799,,12,mixed,unknown,dispatched,shipping_delay,OFFER_REPLACEMENT_OR_REFUND
+163,C1252,Diya,Please cancel my order. It has not been dispatched yet.,1999,,0,mixed,unknown,processing,cancellation,CANCEL_AND_REFUND
+51,C1190,Vihaan,I noticed the product was damaged and want a refund.,1499,8,,non_food,opened,delivered,damaged,REJECT_OUTSIDE_WINDOW
+15,C1057,Ishaan,I received a damaged item today.,1999,2,,food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+143,C1167,Kavya,I ordered chocolate but received vanilla.,699,2,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+196,C1252,Arjun,The device is defective and stops working after a few minutes.,4999,12,,non_food,opened,delivered,defective,REQUEST_DEFECT_EVIDENCE
+197,C1210,Ananya,The device is defective and stops working after a few minutes.,3999,12,,non_food,opened,delivered,defective,REQUEST_DEFECT_EVIDENCE
+188,C1064,Sara,The product turns on but does not function correctly.,2999,5,,non_food,opened,delivered,defective,APPROVE_REPLACEMENT
+110,C1032,Meera,My order still has not arrived. Tracking shows it is in transit.,999,,7,mixed,unknown,dispatched,shipping_delay,WAIT_AND_TRACK
+193,C1345,Riya,The product turns on but does not function correctly.,899,3,,non_food,opened,delivered,defective,APPROVE_REPLACEMENT
+44,C1215,Dev,My expensive order arrived crushed.,6999,0,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+208,C1160,Zoya,The device has stopped working and I want a replacement.,1499,18,,non_food,opened,delivered,defective,REJECT_OUTSIDE_WINDOW
+200,C1019,Sara,The device is defective and stops working after a few minutes.,4999,12,,non_food,opened,delivered,defective,REQUEST_DEFECT_EVIDENCE
+134,C1022,Kabir,My parcel still has not arrived after a long delay.,2499,,11,mixed,unknown,dispatched,shipping_delay,OFFER_REPLACEMENT_OR_REFUND
+95,C1213,Dev,The non-food item is unopened but I would like to return it now.,1499,15,,non_food,unopened,delivered,return,REJECT_OUTSIDE_WINDOW
+43,C1127,Dev,The product was broken inside the box.,2499,6,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+54,C1069,Riya,I noticed the product was damaged and want a refund.,699,10,,non_food,opened,delivered,damaged,REJECT_OUTSIDE_WINDOW
+174,C1231,Sara,I want to cancel my order but tracking says it has already shipped.,1999,,2,mixed,unknown,dispatched,cancellation,CANNOT_CANCEL_AFTER_DISPATCH
+168,C1206,Tanvi,Please cancel my order. It has not been dispatched yet.,499,,0,mixed,unknown,processing,cancellation,CANCEL_AND_REFUND
+76,C1036,Riya,I changed my mind but I already opened the non-food product.,999,8,,non_food,opened,delivered,return,REJECT_OPENED_ITEM
+90,C1227,Meera,I want to return the food product because I changed my mind.,1299,5,,food,unopened,delivered,return,REJECT_FOOD_RETURN
+81,C1311,Yash,I changed my mind but I already opened the non-food product.,999,8,,non_food,opened,delivered,return,REJECT_OPENED_ITEM
+111,C1300,Aarav,My order still has not arrived. Tracking shows it is in transit.,999,,7,mixed,unknown,dispatched,shipping_delay,WAIT_AND_TRACK
+96,C1197,Tanvi,The non-food item is unopened but I would like to return it now.,2499,17,,non_food,unopened,delivered,return,REJECT_OUTSIDE_WINDOW
+93,C1076,Aarav,The non-food item is unopened but I would like to return it now.,799,17,,non_food,unopened,delivered,return,REJECT_OUTSIDE_WINDOW
+14,C1186,Neel,The outer box and product were damaged on arrival.,1999,3,,non_food,unopened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+172,C1286,Rahul,Please cancel my order. It has not been dispatched yet.,499,,0,mixed,unknown,processing,cancellation,CANCEL_AND_REFUND
+50,C1068,Kabir,I noticed the product was damaged and want a refund.,2499,9,,non_food,opened,delivered,damaged,REJECT_OUTSIDE_WINDOW
+128,C1239,Riya,My package has not arrived yet and it is delayed.,999,,10,mixed,unknown,dispatched,shipping_delay,OPEN_SHIPPING_INVESTIGATION
+136,C1216,Tanvi,My parcel still has not arrived after a long delay.,799,,14,mixed,unknown,dispatched,shipping_delay,OFFER_REPLACEMENT_OR_REFUND
+177,C1107,Meera,I want to cancel my order but tracking says it has already shipped.,1999,,1,mixed,unknown,dispatched,cancellation,CANNOT_CANCEL_AFTER_DISPATCH
+84,C1036,Ananya,I want to return the food product because I changed my mind.,899,3,,food,unopened,delivered,return,REJECT_FOOD_RETURN
+55,C1284,Ishaan,I changed my mind. The non-food product is still unopened.,599,1,,non_food,unopened,delivered,return,APPROVE_RETURN
+119,C1094,Aditi,My package has not arrived yet and it is delayed.,2999,,8,mixed,unknown,dispatched,shipping_delay,OPEN_SHIPPING_INVESTIGATION
+45,C1134,Meera,I noticed the product was damaged and want a refund.,2499,15,,non_food,opened,delivered,damaged,REJECT_OUTSIDE_WINDOW
+165,C1246,Sara,Please cancel my order. It has not been dispatched yet.,999,,0,mixed,unknown,processing,cancellation,CANCEL_AND_REFUND
+157,C1269,Mira,I received the wrong flavour but only noticed it now.,1199,14,,food,unopened,delivered,wrong_item,REJECT_OUTSIDE_WINDOW
+141,C1143,Sara,I ordered chocolate but received vanilla.,399,2,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+212,C1237,Diya,The package came wrong.,799,,,unknown,unknown,delivered,unknown,NEEDS_MORE_INFORMATION
+187,C1305,Dev,The product turns on but does not function correctly.,2499,3,,non_food,opened,delivered,defective,APPROVE_REPLACEMENT
+94,C1244,Mira,The non-food item is unopened but I would like to return it now.,799,15,,non_food,unopened,delivered,return,REJECT_OUTSIDE_WINDOW
+2,C1048,Meera,I received a damaged item today.,1999,1,,food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+179,C1283,Arjun,I want to cancel my order but tracking says it has already shipped.,499,,1,mixed,unknown,dispatched,cancellation,CANNOT_CANCEL_AFTER_DISPATCH
+201,C1130,Ananya,The device is defective and stops working after a few minutes.,3999,1,,non_food,opened,delivered,defective,REQUEST_DEFECT_EVIDENCE
+159,C1092,Vihaan,I received the wrong flavour but only noticed it now.,699,8,,food,unopened,delivered,wrong_item,REJECT_OUTSIDE_WINDOW
+185,C1332,Ishaan,The product turns on but does not function correctly.,1499,10,,non_food,opened,delivered,defective,APPROVE_REPLACEMENT
+190,C1225,Arjun,The product turns on but does not function correctly.,2999,10,,non_food,opened,delivered,defective,APPROVE_REPLACEMENT
+30,C1174,Diya,The product was broken inside the box.,4999,0,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+108,C1079,Meera,My order still has not arrived. Tracking shows it is in transit.,1999,,7,mixed,unknown,dispatched,shipping_delay,WAIT_AND_TRACK
+75,C1099,Nisha,I changed my mind but I already opened the non-food product.,1599,1,,non_food,opened,delivered,return,REJECT_OPENED_ITEM
+64,C1299,Zoya,I changed my mind. The non-food product is still unopened.,1599,14,,non_food,unopened,delivered,return,APPROVE_RETURN
+31,C1275,Sara,My expensive order arrived crushed.,2999,3,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+103,C1133,Neel,My order still has not arrived. Tracking shows it is in transit.,999,,7,mixed,unknown,dispatched,shipping_delay,WAIT_AND_TRACK
+80,C1223,Kabir,I changed my mind but I already opened the non-food product.,1599,1,,non_food,opened,delivered,return,REJECT_OPENED_ITEM
+173,C1317,Neel,I want to cancel my order but tracking says it has already shipped.,1999,,3,mixed,unknown,dispatched,cancellation,CANNOT_CANCEL_AFTER_DISPATCH
+79,C1136,Aditi,I changed my mind but I already opened the non-food product.,1599,4,,non_food,opened,delivered,return,REJECT_OPENED_ITEM
+11,C1118,Aditi,The product was broken when I opened the parcel.,1999,4,,non_food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+23,C1160,Nisha,I received a damaged item today.,1199,2,,food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+145,C1142,Zoya,The flavour in the box is different from what I ordered.,1199,2,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+194,C1090,Tanvi,The product turns on but does not function correctly.,899,10,,non_food,opened,delivered,defective,APPROVE_REPLACEMENT
+114,C1113,Riya,My order still has not arrived. Tracking shows it is in transit.,999,,6,mixed,unknown,dispatched,shipping_delay,WAIT_AND_TRACK
+195,C1093,Dev,The device is defective and stops working after a few minutes.,3999,12,,non_food,opened,delivered,defective,REQUEST_DEFECT_EVIDENCE
+191,C1222,Ananya,The product turns on but does not function correctly.,899,10,,non_food,opened,delivered,defective,APPROVE_REPLACEMENT
+53,C1342,Zoya,I noticed the product was damaged and want a refund.,699,15,,non_food,opened,delivered,damaged,REJECT_OUTSIDE_WINDOW
+144,C1133,Ananya,I ordered chocolate but received vanilla.,699,3,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+32,C1143,Sara,My expensive order arrived crushed.,4999,2,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+19,C1079,Kabir,My package arrived damaged and the box is crushed.,1999,2,,non_food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+56,C1310,Meera,I changed my mind. The non-food product is still unopened.,1599,4,,non_food,unopened,delivered,return,APPROVE_RETURN
+48,C1038,Aarav,I noticed the product was damaged and want a refund.,2499,12,,non_food,opened,delivered,damaged,REJECT_OUTSIDE_WINDOW
+46,C1123,Riya,I noticed the product was damaged and want a refund.,2499,21,,non_food,opened,delivered,damaged,REJECT_OUTSIDE_WINDOW
+205,C1137,Zoya,The device has stopped working and I want a replacement.,1499,15,,non_food,opened,delivered,defective,REJECT_OUTSIDE_WINDOW
+8,C1195,Riya,My package arrived damaged and the box is crushed.,1199,3,,food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+178,C1042,Kavya,I want to cancel my order but tracking says it has already shipped.,999,,3,mixed,unknown,dispatched,cancellation,CANNOT_CANCEL_AFTER_DISPATCH
+42,C1346,Neel,My expensive order arrived crushed.,6999,1,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+6,C1275,Diya,The outer box and product were damaged on arrival.,1999,5,,food,unopened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+150,C1340,Dev,I ordered chocolate but received vanilla.,699,7,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+116,C1085,Sara,My package has not arrived yet and it is delayed.,2999,,9,mixed,unknown,dispatched,shipping_delay,OPEN_SHIPPING_INVESTIGATION
+162,C1150,Ishaan,Please cancel my order. It has not been dispatched yet.,1999,,0,mixed,unknown,processing,cancellation,CANCEL_AND_REFUND
+180,C1210,Sara,I want to cancel my order but tracking says it has already shipped.,499,,1,mixed,unknown,dispatched,cancellation,CANNOT_CANCEL_AFTER_DISPATCH
+22,C1338,Tanvi,My package arrived damaged and the box is crushed.,1799,1,,food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+57,C1105,Riya,I changed my mind. The non-food product is still unopened.,1599,13,,non_food,unopened,delivered,return,APPROVE_RETURN
+13,C1136,Ishaan,I received a damaged item today.,1799,3,,non_food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+158,C1100,Vihaan,I received the wrong flavour but only noticed it now.,399,10,,food,unopened,delivered,wrong_item,REJECT_OUTSIDE_WINDOW
+91,C1146,Yash,I want to return the food product because I changed my mind.,499,8,,food,opened,delivered,return,REJECT_FOOD_RETURN
+139,C1276,Tanvi,You sent me the wrong item.,1199,7,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+182,C1148,Vihaan,I want to cancel my order but tracking says it has already shipped.,499,,1,mixed,unknown,dispatched,cancellation,CANNOT_CANCEL_AFTER_DISPATCH
+153,C1157,Riya,You sent me the wrong item.,699,7,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+112,C1004,Kabir,My order still has not arrived. Tracking shows it is in transit.,999,,7,mixed,unknown,dispatched,shipping_delay,WAIT_AND_TRACK
+24,C1116,Arjun,I received a damaged item today.,1799,5,,food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+59,C1142,Aditi,I changed my mind. The non-food product is still unopened.,2499,1,,non_food,unopened,delivered,return,APPROVE_RETURN
+74,C1117,Neel,I changed my mind but I already opened the non-food product.,999,8,,non_food,opened,delivered,return,REJECT_OPENED_ITEM
+61,C1283,Rahul,I changed my mind. The non-food product is still unopened.,2499,2,,non_food,unopened,delivered,return,APPROVE_RETURN
+198,C1054,Kavya,The device is defective and stops working after a few minutes.,4999,9,,non_food,opened,delivered,defective,REQUEST_DEFECT_EVIDENCE
+160,C1274,Ishaan,I received the wrong flavour but only noticed it now.,1199,8,,food,unopened,delivered,wrong_item,REJECT_OUTSIDE_WINDOW
+125,C1016,Neel,My package has not arrived yet and it is delayed.,499,,10,mixed,unknown,dispatched,shipping_delay,OPEN_SHIPPING_INVESTIGATION
+166,C1095,Aditi,Please cancel my order. It has not been dispatched yet.,999,,0,mixed,unknown,processing,cancellation,CANCEL_AND_REFUND
+164,C1294,Vihaan,Please cancel my order. It has not been dispatched yet.,499,,0,mixed,unknown,processing,cancellation,CANCEL_AND_REFUND
+137,C1186,Sara,My parcel still has not arrived after a long delay.,1499,,11,mixed,unknown,dispatched,shipping_delay,OFFER_REPLACEMENT_OR_REFUND
+156,C1248,Riya,I received the wrong flavour but only noticed it now.,399,8,,food,unopened,delivered,wrong_item,REJECT_OUTSIDE_WINDOW
+21,C1291,Arjun,The product was broken when I opened the parcel.,1199,5,,food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+102,C1229,Kavya,My order still has not arrived. Tracking shows it is in transit.,1999,,7,mixed,unknown,dispatched,shipping_delay,WAIT_AND_TRACK
+87,C1341,Nisha,I want to return the food product because I changed my mind.,499,3,,food,unopened,delivered,return,REJECT_FOOD_RETURN
+68,C1318,Ishaan,I changed my mind. The non-food product is still unopened.,2499,4,,non_food,unopened,delivered,return,APPROVE_RETURN
+209,C1008,Zoya,My product does not work.,1499,,,non_food,unknown,delivered,unknown,NEEDS_MORE_INFORMATION
+20,C1010,Diya,My package arrived damaged and the box is crushed.,1999,2,,non_food,unopened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+40,C1300,Tanvi,My expensive order arrived crushed.,2499,5,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+105,C1040,Vihaan,My order still has not arrived. Tracking shows it is in transit.,999,,7,mixed,unknown,dispatched,shipping_delay,WAIT_AND_TRACK
+37,C1147,Rahul,The item is damaged and the packaging is torn.,3499,6,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+4,C1143,Ishaan,The product was broken when I opened the parcel.,499,4,,non_food,unopened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+175,C1220,Vihaan,I want to cancel my order but tracking says it has already shipped.,999,,3,mixed,unknown,dispatched,cancellation,CANNOT_CANCEL_AFTER_DISPATCH
+135,C1190,Arjun,My parcel still has not arrived after a long delay.,2499,,18,mixed,unknown,dispatched,shipping_delay,OFFER_REPLACEMENT_OR_REFUND
+155,C1275,Kavya,I received the wrong flavour but only noticed it now.,1199,8,,food,unopened,delivered,wrong_item,REJECT_OUTSIDE_WINDOW
+113,C1215,Zoya,My order still has not arrived. Tracking shows it is in transit.,999,,7,mixed,unknown,dispatched,shipping_delay,WAIT_AND_TRACK
+26,C1264,Neel,My package arrived damaged and the box is crushed.,499,3,,non_food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+85,C1260,Vihaan,I want to return the food product because I changed my mind.,299,5,,food,unopened,delivered,return,REJECT_FOOD_RETURN
+152,C1170,Kabir,The flavour in the box is different from what I ordered.,1199,3,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+129,C1311,Mira,My parcel still has not arrived after a long delay.,799,,14,mixed,unknown,dispatched,shipping_delay,OFFER_REPLACEMENT_OR_REFUND
+33,C1282,Diya,The item is damaged and the packaging is torn.,2499,3,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+10,C1237,Nisha,The product was broken when I opened the parcel.,1999,1,,food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+127,C1243,Diya,My package has not arrived yet and it is delayed.,999,,8,mixed,unknown,dispatched,shipping_delay,OPEN_SHIPPING_INVESTIGATION
+184,C1218,Diya,The product turns on but does not function correctly.,1499,5,,non_food,opened,delivered,defective,APPROVE_REPLACEMENT
+170,C1077,Dev,Please cancel my order. It has not been dispatched yet.,499,,0,mixed,unknown,processing,cancellation,CANCEL_AND_REFUND
+98,C1113,Kavya,The non-food item is unopened but I would like to return it now.,1499,15,,non_food,unopened,delivered,return,REJECT_OUTSIDE_WINDOW
+122,C1130,Arjun,My package has not arrived yet and it is delayed.,2999,,9,mixed,unknown,dispatched,shipping_delay,OPEN_SHIPPING_INVESTIGATION
+82,C1296,Meera,I changed my mind but I already opened the non-food product.,999,1,,non_food,opened,delivered,return,REJECT_OPENED_ITEM
+12,C1291,Ananya,The outer box and product were damaged on arrival.,1799,5,,food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+106,C1172,Ananya,My order still has not arrived. Tracking shows it is in transit.,999,,6,mixed,unknown,dispatched,shipping_delay,WAIT_AND_TRACK
+60,C1067,Riya,I changed my mind. The non-food product is still unopened.,1599,1,,non_food,unopened,delivered,return,APPROVE_RETURN
+204,C1321,Sara,The device has stopped working and I want a replacement.,3499,22,,non_food,opened,delivered,defective,REJECT_OUTSIDE_WINDOW
+147,C1285,Neel,You sent me the wrong item.,699,7,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+62,C1058,Arjun,I changed my mind. The non-food product is still unopened.,599,10,,non_food,unopened,delivered,return,APPROVE_RETURN
+203,C1028,Meera,The device has stopped working and I want a replacement.,3499,30,,non_food,opened,delivered,defective,REJECT_OUTSIDE_WINDOW
+83,C1001,Yash,I want to return the food product because I changed my mind.,299,5,,food,unopened,delivered,return,REJECT_FOOD_RETURN
+207,C1323,Mira,The device has stopped working and I want a replacement.,1499,15,,non_food,opened,delivered,defective,REJECT_OUTSIDE_WINDOW
+97,C1076,Aarav,The non-food item is unopened but I would like to return it now.,799,30,,non_food,unopened,delivered,return,REJECT_OUTSIDE_WINDOW
+140,C1304,Riya,You sent me the wrong item.,1199,3,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+206,C1225,Tanvi,The device has stopped working and I want a replacement.,3499,18,,non_food,opened,delivered,defective,REJECT_OUTSIDE_WINDOW
+86,C1152,Zoya,I want to return the food product because I changed my mind.,899,8,,food,unopened,delivered,return,REJECT_FOOD_RETURN
+89,C1221,Dev,I want to return the food product because I changed my mind.,899,5,,food,opened,delivered,return,REJECT_FOOD_RETURN
+210,C1209,Arjun,I want my money back.,999,,,unknown,unknown,unknown,unknown,NEEDS_MORE_INFORMATION
+138,C1091,Yash,My parcel still has not arrived after a long delay.,1499,,12,mixed,unknown,dispatched,shipping_delay,OFFER_REPLACEMENT_OR_REFUND
+115,C1015,Nisha,My package has not arrived yet and it is delayed.,2999,,9,mixed,unknown,dispatched,shipping_delay,OPEN_SHIPPING_INVESTIGATION
+39,C1278,Aditi,The product was broken inside the box.,6999,0,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+126,C1319,Ishaan,My package has not arrived yet and it is delayed.,499,,8,mixed,unknown,dispatched,shipping_delay,OPEN_SHIPPING_INVESTIGATION
+169,C1296,Aditi,Please cancel my order. It has not been dispatched yet.,499,,0,mixed,unknown,processing,cancellation,CANCEL_AND_REFUND
+149,C1114,Nisha,I ordered chocolate but received vanilla.,699,0,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+151,C1272,Kabir,You sent me the wrong item.,1199,2,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+77,C1261,Nisha,I changed my mind but I already opened the non-food product.,1599,8,,non_food,opened,delivered,return,REJECT_OPENED_ITEM
+186,C1037,Aditi,The product turns on but does not function correctly.,1499,5,,non_food,opened,delivered,defective,APPROVE_REPLACEMENT
+73,C1103,Sara,I changed my mind but I already opened the non-food product.,599,12,,non_food,opened,delivered,return,REJECT_OPENED_ITEM
+1,C1072,Diya,The outer box and product were damaged on arrival.,499,1,,food,opened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+69,C1091,Rahul,I changed my mind. The non-food product is still unopened.,999,2,,non_food,unopened,delivered,return,APPROVE_RETURN
+130,C1160,Diya,My parcel still has not arrived after a long delay.,799,,11,mixed,unknown,dispatched,shipping_delay,OFFER_REPLACEMENT_OR_REFUND
+88,C1281,Aarav,I want to return the food product because I changed my mind.,899,3,,food,unopened,delivered,return,REJECT_FOOD_RETURN
+211,C1116,Diya,There is a problem with my order.,2499,,,unknown,unknown,unknown,unknown,NEEDS_MORE_INFORMATION
+71,C1137,Kavya,I changed my mind. The non-food product is still unopened.,999,14,,non_food,unopened,delivered,return,APPROVE_RETURN
+18,C1002,Riya,I received a damaged item today.,1199,1,,food,unopened,delivered,damaged,APPROVE_REFUND_OR_REPLACEMENT
+35,C1247,Meera,The item is damaged and the packaging is torn.,4999,2,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+192,C1014,Arjun,The product turns on but does not function correctly.,2499,10,,non_food,opened,delivered,defective,APPROVE_REPLACEMENT
+214,C1256,Vihaan,I want to return this item.,1799,,,unknown,unknown,delivered,return,NEEDS_MORE_INFORMATION
+154,C1099,Ananya,I ordered chocolate but received vanilla.,1199,1,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+49,C1038,Zoya,I noticed the product was damaged and want a refund.,699,12,,non_food,opened,delivered,damaged,REJECT_OUTSIDE_WINDOW
+99,C1286,Neel,The non-food item is unopened but I would like to return it now.,799,30,,non_food,unopened,delivered,return,REJECT_OUTSIDE_WINDOW
+38,C1152,Meera,My expensive order arrived crushed.,2999,7,,non_food,opened,delivered,damaged,REQUEST_PHOTOS
+142,C1313,Nisha,You sent me the wrong item.,1199,1,,food,unopened,delivered,wrong_item,REPLACE_CORRECT_ITEM
+117,C1202,Dev,My package has not arrived yet and it is delayed.,499,,8,mixed,unknown,dispatched,shipping_delay,OPEN_SHIPPING_INVESTIGATION
+63,C1280,Aditi,I changed my mind. The non-food product is still unopened.,999,13,,non_food,unopened,delivered,return,APPROVE_RETURN
+121,C1173,Nisha,My package has not arrived yet and it is delayed.,1999,,9,mixed,unknown,dispatched,shipping_delay,OPEN_SHIPPING_INVESTIGATION
+124,C1333,Arjun,My package has not arrived yet and it is delayed.,999,,9,mixed,unknown,dispatched,shipping_delay,OPEN_SHIPPING_INVESTIGATION
+107,C1078,Neel,My order still has not arrived. Tracking shows it is in transit.,499,,6,mixed,unknown,dispatched,shipping_delay,WAIT_AND_TRACK
+70,C1171,Rahul,I changed my mind. The non-food product is still unopened.,999,1,,non_food,unopened,delivered,return,APPROVE_RETURN
+181,C1241,Vihaan,I want to cancel my order but tracking says it has already shipped.,1999,,3,mixed,unknown,dispatched,cancellation,CANNOT_CANCEL_AFTER_DISPATCH
+131,C1295,Nisha,My parcel still has not arrived after a long delay.,1499,,11,mixed,unknown,dispatched,shipping_delay,OFFER_REPLACEMENT_OR_REFUND

@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+streamlit
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt==3.2.2
+python-dotenv
+# Only one google lib is needed. Code uses google-genai.
+google-genai
+numpy
+requests
+pytest
+httpx
