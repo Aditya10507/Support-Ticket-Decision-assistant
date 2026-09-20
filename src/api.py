@@ -19,6 +19,11 @@ def start_db():
     # Make tables if they do not exist
     init_db()
 
+@app.get("/")
+def root():
+    # Health check so GET / does not return 404
+    return {"status": "ok", "message": "Support Ticket Decision Assistant API running. See /docs"}
+
 # ── Request Body Models ────────────────────────────────────────────────────────
 # These define what data must come in the request body
 # FastAPI automatically validates them — missing fields return a 422 error
