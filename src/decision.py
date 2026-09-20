@@ -30,8 +30,10 @@ SYSTEM_PROMPT = (
     "Return ONLY a raw JSON object with no markdown, no code fences, no extra text."
 )
 
-# Allowed actions match assignment spec
-JSON_FORMAT = '{"action": "APPROVE_REFUND or REQUEST_PHOTOS or NEEDS_MORE_INFORMATION or escalate", "confidence": 0.0, "reason": "one sentence reason", "sources": ["filename.md"]}'
+# Allowed actions match assignment spec + dataset families.
+# Dataset uses APPROVE_REPLACEMENT / APPROVE_RETURN / REPLACE variants;
+# model was returning them and falling back to escalate, so allow them.
+JSON_FORMAT = '{"action": "APPROVE_REFUND or APPROVE_REPLACEMENT or APPROVE_RETURN or REQUEST_PHOTOS or NEEDS_MORE_INFORMATION or escalate", "confidence": 0.0, "reason": "one sentence reason", "sources": ["filename.md"]}'
 
 def build_prompt(ticket_message: str, relevant_chunks: list[dict]) -> str:
     context_text = ""
@@ -209,8 +211,13 @@ def generate_decision(ticket_message: str, relevant_chunks: list[dict]) -> dict:
             "sources": []
         }
 
-    # Valid actions per assignment spec
-    valid_actions = {"APPROVE_REFUND", "REQUEST_PHOTOS", "NEEDS_MORE_INFORMATION", "approve_refund", "deny_refund", "escalate", "request_more_info"}
+    # Valid actions: spec core + dataset approve/replace variants + legacy lowercase.
+    # Unknown -> safe escalate. APPROVE_REPLACEMENT/RETURN kept (not escalated).
+    valid_actions = {
+        "APPROVE_REFUND", "APPROVE_REPLACEMENT", "APPROVE_RETURN",
+        "REQUEST_PHOTOS", "NEEDS_MORE_INFORMATION", "escalate",
+        "approve_refund", "deny_refund", "request_more_info",
+    }
     action = decision.get("action", "escalate")
     # Bad action -> safe fallback
     if action not in valid_actions:
